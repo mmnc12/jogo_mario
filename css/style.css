@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b30000;
+}
+
+header#main-header {
+    background-color: #dddddd;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column-reverse;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#game-score {
+    background-color: #61b1ea;
+    border-radius: 30px;
+    padding: 5px 10px;
+    color: white;
+
+    font-size: 1.25rem;
+    font-weight: 700;
+
+    margin-left: 15px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#game-score img {
+    margin-right: 15px;
+}
+
+#game-name {
+    font-weight: bold;
+    font-size: 1.6875rem;
+    margin-bottom: 10px;
+
+    text-align: center;
+}
+
+section#main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+section#main div#left-side {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    align-items: center;
+
+}
+
+section#main div#right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+div#right-side img {
+    height: 300px;
+}
+
+section#main div#left-side div#current-color {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+
+    border: 10px solid #000000;
+    border-radius: 15px;
+}
+
+section#main div#left-side button#btn-respond {
+    margin-top: 10px;
+
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+
+    font-size: 1.5625rem;
+    font-weight: bold;
+    color: white;
+    padding: 15px 45px;
+}
+
+div#container footer#footer {
+    background-color: rgb(26, 26, 32);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+    height: 160px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width: 768px) {
+
+    header#main-header {
+        height: 2.5rem;
+        flex-direction: row;
+        padding: 0;
+    }
+
+    #game-score {
+        padding: 5px 50px;
+    }
+
+    #game-name {
+        margin-bottom: 0px;
+        margin-right: 20px;
+    }
+
+    section#main {
+        flex-direction: row;
+    }
+
+    section#main div#left-side {
+        width: 60%;
+        margin-left: 10px;
+    }
+
+    section#main div#right-side {
+        width: 40%;
+        margin-top: 0px;
+        align-items: flex-start;
+    }
+
+    div#right-side img {
+        height: 390px;
+    }
+
+}
