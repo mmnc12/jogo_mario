@@ -31,7 +31,7 @@ function aplicarCorNaCaixa(nomeDaCor) {
     var colorBox = document.querySelector('#current-color');
 
     colorBox.style.backgroundColor = nomeDaCor;
-    colorBox.style.backgroundImage = "url('/img/caixa-fechada.png')";
+    colorBox.style.backgroundImage = "url('../img/caixa-fechada.png')";
     colorBox.style.backgroundSize = '100%'
 }
 
