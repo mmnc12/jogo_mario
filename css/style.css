@@ -116,7 +116,7 @@ div#container footer#footer img {
     height: 40px;
 }
 
-@media (min-width: 480px) and (max-width: 768px) {
+@media (min-width: 480px) {
     div#container footer#footer {
         height: 4.375rem;
     }
