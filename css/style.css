@@ -127,7 +127,7 @@ div#container footer#footer img {
 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
 
     header#main-header {
         height: 2.5rem;
@@ -169,14 +169,10 @@ div#container footer#footer img {
         padding: 15px 45px;
     }
 
-}
-
-@media (min-width: 1024px) {
-
     div#container footer#footer {
         height: 160px;
     }
-
+    
     div#container footer#footer img {
         height: 5.625rem;
     }
