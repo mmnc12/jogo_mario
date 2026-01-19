@@ -120,6 +120,11 @@ div#container footer#footer img {
     div#container footer#footer {
         height: 4.375rem;
     }
+
+    div#container footer#footer img {
+        height: 40px;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -170,7 +175,7 @@ div#container footer#footer img {
 
 
     div#container footer#footer img {
-    height: 5.625rem;
-}
+        height: 5.625rem;
+    }
 
 }
