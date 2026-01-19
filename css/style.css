@@ -169,13 +169,15 @@ div#container footer#footer img {
         padding: 15px 45px;
     }
 
+}
+
+@media (min-width: 1024px) {
+
     div#container footer#footer {
         height: 160px;
     }
 
-
     div#container footer#footer img {
         height: 5.625rem;
     }
-
 }
